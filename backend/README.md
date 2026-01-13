@@ -1,5 +1,5 @@
 
-```markdown
+
 #  MultiDownloader Backend
 
 A powerful **multi-platform video downloader** built with **Go** — supporting YouTube, TikTok, Instagram, Facebook, X (Twitter), and more.
@@ -134,16 +134,16 @@ Response:
 
 | Platform                        | Supported      | Notes                           |
 | ------------------------------- | -------------- | ------------------------------- |
-| YouTube                         | ✅              | Full metadata & video download  |
-| TikTok                          | ✅              | Works with or without watermark |
-| Instagram                       | ✅              | Reels, posts, stories           |
-| Facebook                        | ✅              | Public videos only              |
-| X (Twitter)                     | ✅              | Videos & GIFs                   |
-| Reddit, Vimeo, SoundCloud, etc. | ⚙️ Coming soon |                                 |
+| YouTube                         |               | Full metadata & video download  |
+| TikTok                          |               | Works with or without watermark |
+| Instagram                       |               | Reels, posts, stories           |
+| Facebook                        |               | Public videos only              |
+| X (Twitter)                     |               | Videos & GIFs                   |
+| Reddit, Vimeo, SoundCloud, etc. |   Coming soon |                                 |
 
 ---
 
-## 🧩 Next Steps
+##  Next Steps
 
 * [ ] Add `/metadata` route using `yt-dlp --dump-json`
 * [ ] Add concurrent downloads
@@ -159,15 +159,6 @@ curl -X POST http://localhost:8080/download \
   -H "Content-Type: application/json" \
   -d '{"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}'
 ```
-
----
-
-## 🧑🏽‍💻 Author
-
-**Gorden**
- Accra, Ghana
- IT Student @ Pentecost University
- Full-stack developer passionate about scalable, intelligent systems
 
 ---
 
