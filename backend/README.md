@@ -67,7 +67,7 @@ brew install yt-dlp
 
 ```bash
 # Clone the project
-git clone https://github.com/<your-username>/multidownloader.git
+git clone https://github.com/GordenArcher/multidownloader.git
 cd multidownloader
 
 # Initialize Go modules
