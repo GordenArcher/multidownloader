@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/multidownloader/backend/internal/downloader"
-	"github.com/multidownloader/backend/internal/storage"
+	"github.com/GordenArcher/multidownloader/backend/internal/downloader"
+	"github.com/GordenArcher/multidownloader/backend/internal/storage"
 )
 
 type DownloadRequest struct {

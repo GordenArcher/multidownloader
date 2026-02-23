@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/multidownloader/backend/internal/downloader"
+	"github.com/GordenArcher/multidownloader/backend/internal/downloader"
 )
 
 var historyFile = filepath.Join("downloads", "history.json")

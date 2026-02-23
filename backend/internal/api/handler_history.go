@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/multidownloader/backend/internal/storage"
+	"github.com/GordenArcher/multidownloader/backend/internal/storage"
 )
 
 func handleHistory(w http.ResponseWriter, r *http.Request) {

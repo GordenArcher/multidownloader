@@ -1,4 +1,4 @@
-module github.com/multidownloader/backend
+module github.com/GordenArcher/multidownloader/backend
 
 go 1.25.1
 
